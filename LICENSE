@@ -1,0 +1,18 @@
+# 授权协议（License）
+
+本仓库的**方法、模板、SOP 文档**（`README.md`、`SOP.md`、`templates/`）采用：
+
+**Creative Commons Attribution-NonCommercial 4.0 International（CC BY-NC 4.0）**
+
+- 你可自由**分享、复制、改编**这些方法文档；
+- 但必须**署名**（保留原作者信息）；
+- 且**不得用于商业目的**（不得出售这些方法/模板本身）。
+
+完整法律文本：https://creativecommons.org/licenses/by-nc/4.0/legalcode
+
+## 不在此授权范围内的内容
+
+- 你按本 SOP 对任何书籍拆解出的**书籍内容**：版权归原书作者所有，只适合自用，请勿随本仓库开源或出售。
+- 仓库中的示例图（`assets/demo-mindmap.png`）为本项目自行绘制的通用结构示意图，不含任何书籍原文，随本协议一并授权。
+
+> 提示：在 GitHub 创建仓库时选择 "CC BY-NC 4.0" 许可证，GitHub 会自动填入完整的法律文本；本文件为简明说明，以官方文本为准。

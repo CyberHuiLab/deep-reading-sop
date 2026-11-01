@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body {
+    width: 1080px; height: 1080px; padding: 72px 76px;
+    font-family: "PingFang SC", "Hiragino Sans GB", "STHeiti", sans-serif;
+    background: #f6f1e7; color: #1f2933;
+    display: flex; flex-direction: column;
+  }
+  .top { display: flex; justify-content: space-between; align-items: center; font-size: 20px; letter-spacing: 3px; color: #8c8272; }
+  .top .dot { color: #b3541e; }
+  h1 { font-size: 92px; font-weight: 700; letter-spacing: 4px; margin-top: 26px; }
+  h2 { font-size: 40px; font-weight: 600; color: #b3541e; margin-top: 10px; }
+  .line { height: 4px; background: #1f2933; margin: 30px 0 34px; }
+  .rows { display: flex; flex-direction: column; gap: 14px; }
+  .row { display: flex; align-items: center; gap: 20px; background: #fffdf8; border: 2px solid #e4dac9; border-radius: 14px; padding: 16px 24px; }
+  .row .idx { font-size: 26px; font-weight: 700; color: #b3541e; width: 44px; }
+  .row .name { font-size: 28px; font-weight: 600; width: 200px; }
+  .row .desc { font-size: 22px; color: #6b6257; }
+  .bottom { margin-top: auto; display: flex; align-items: center; gap: 30px; border-top: 4px solid #1f2933; padding-top: 28px; }
+  .qr { width: 190px; height: 190px; background: #fff; padding: 10px; border-radius: 12px; }
+  .qr img { width: 100%; height: 100%; display: block; }
+  .info { display: flex; flex-direction: column; gap: 10px; }
+  .info .u { font-size: 27px; font-weight: 600; font-family: ui-monospace, Menlo, monospace; }
+  .info .h { font-size: 20px; color: #6b6257; line-height: 1.5; }
+  .tag { align-self: flex-start; font-size: 18px; padding: 5px 14px; border-radius: 999px; background: #1f2933; color: #f6f1e7; }
+</style>
+</head>
+<body>
+  <div class="top">
+    <span><span class="dot">●</span> 开源方法 · GitHub 仓库</span>
+    <span>deep-reading-sop</span>
+  </div>
+
+  <h1>读书流水线</h1>
+  <h2>一本书 → 四份可复用资产</h2>
+  <div class="line"></div>
+
+  <div class="rows">
+    <div class="row"><span class="idx">00</span><span class="name">大纲</span><span class="desc">全书主线、章节树、论证链、作者局限</span></div>
+    <div class="row"><span class="idx">01</span><span class="name">读书笔记</span><span class="desc">逐章拆机制、列证据，写下自己的判断</span></div>
+    <div class="row"><span class="idx">02</span><span class="name">知识卡片</span><span class="desc">一句话 / 机制 / 易混 / 出处，可导 Anki</span></div>
+    <div class="row"><span class="idx">03</span><span class="name">思维导图</span><span class="desc">核心命题、各章一句、全书主线一张图</span></div>
+  </div>
+
+  <div class="bottom">
+    <div class="qr"><img src="qr-code.png" alt="仓库二维码"></div>
+    <div class="info">
+      <span class="tag">扫码或搜索仓库名</span>
+      <span class="u">github.com/CyberHuiLab/deep-reading-sop</span>
+      <span class="h">基于 DSH + zlib + dsh-deep-reading<br>方法开源 · 模板可复用 · CC BY-NC 4.0</span>
+    </div>
+  </div>
+</body>
+</html>
